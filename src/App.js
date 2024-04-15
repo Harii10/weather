@@ -34,6 +34,9 @@ function App() {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-blue-600">
       <div className="m-6 lg:m-5">
+      <div className="flex justify-center my-8">
+        <h1 className="text-6xl font-mono font-extrabold">Weather App</h1>
+      </div>     
         <Search
           onSearchChange={handleOnSearchChange}
         />
